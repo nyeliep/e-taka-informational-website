@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.team-centered-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+
+  margin-bottom: 30px;
+}
+
+.team-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -25%;
+}
+.team-title {
+
+  font-family: 'League Spartan', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #faa005;
+  padding-top: -10%;
+  
+
+  
+
+}
+.team-section-container{
+  margin-top: 10%;
+
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 13%;
+  padding-left: 131px;
+  padding-right: 40px;
+  /* margin-top: 15%; */
+ 
+
+
+
+}
+
+@media screen and (width: 768px) {
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (width: 912px)
+{
+  .team-section-container{
+    margin-top: 5%;
+  }
+  .team-container {
+    margin-left: 7%;
+    gap: 20%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+}
+
+
+@media screen and (min-width: 540px)
+{
+  .team-section-container{
+    margin-top: 10%;
+    /* gap: 5%; */
+  }
+
+
+}
+
+
+@media screen and (min-width: 280px)
+{
+  .team-section-container{
+    margin-top: 10%;
+  }
+
+
+}
+
+@media screen and (width: 820px) {
+  .team-section-container{
+    margin-top: 10%;
+  }
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .team-section-container{
+    margin-top: 5%;
+  }
+  .team-container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  .team-section-container{
+    margin-top: 15%;
+  }
+
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+    margin-top: 19%;
+    
+  }
+  .team-title {
+    margin-top: 24%;
+}
+}
+@media screen and (min-width: 540px)
+{
+  .team-section-container{
+    margin-top: 10%;
+  }
+}
+@media screen and (min-width: 280px)
+{
+  .team-section-container{
+    margin-top: 10%;
+  }
+}
+@media screen and (min-width: 820px) {
+  .team-section-container{
+    margin-top: 10%;
+  }
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 414px)
+{
+  .team-section-container{
+    margin-top: 40%;
+    
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .team-section-container{
+    margin-top: 15%;
+  }
+
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+    margin-top: 19%;
+    
+  }
+  .team-title {
+    margin-top: 24%;
+}
+}
+
+@media screen and (min-width: 360px) {
+  .team-section-container{
+    margin-top: 15%;
+  }
+
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+    margin-top: 19%;
+    
+  }
+  .team-title {
+    margin-top: 24%;
+}
+}
+
+@media screen and (min-width: 280px) {
+  .team-section-container{
+    margin-top: 15%;
+  }
+
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;   
+    margin-top: 19%;
+    
+  }
+  .team-title {
+    margin-top: 24%;
+}
+}

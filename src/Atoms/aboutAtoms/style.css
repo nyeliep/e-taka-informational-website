@@ -1,0 +1,523 @@
+
+
+.vectorElement {
+  width: 300px;
+  height: 300px;
+  background: #093121;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20%;
+padding: 10px 20px;
+
+
+}
+
+.sustainability {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid white;
+margin-left: 5%;
+
+
+}
+.icon{
+  margin-bottom: -6%;
+}
+
+.community {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--triangle-color, #093121);
+}
+
+.imageStyle {
+  align-items: center;
+  margin-left: 34%;
+  width: 100px;
+  height: 100px;
+  margin-top: -200px;
+
+
+}
+
+
+.divContainerStyle {
+  align-items: center;
+ margin-top: 10px;
+
+
+
+}
+
+.customer{
+  padding: 50px 10px 10px;
+  text-align: center;
+  color: #fff;
+  font-size:  24px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.text {
+  padding: 10px 10px 10px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+ .icon{
+    margin-top: 5%;
+
+
+ }
+ .sustainability{
+   margin-left: 4%;
+
+ }
+
+}
+
+@media (width: 280px) {
+  .vectorElement {
+    width: 300px;
+    height: 550px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 1024px) {
+  .vectorElement {
+    width: 350px;
+    height: 350px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -10%;
+
+
+  }
+  .sustainability{
+    margin-left: 2%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 1280px) {
+  .vectorElement {
+    width: 350px;
+    height: 350px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -10%;
+
+
+  }
+  .sustainability{
+    margin-left: 2%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+
+ @media (width: 540px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 390px) {
+  .vectorElement {
+    width: 300px;
+    height: 500px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 393px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 414px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 412px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 375px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -20%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 360px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 540px) {
+  .vectorElement {
+    width: 350px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -1%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+    padding: 7%;
+  }
+
+ }
+ @media (width: 390px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 412px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }
+
+ @media (width: 375px) {
+  .vectorElement {
+    width: 300px;
+    height: 450px;
+    background: #093121;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30%;
+
+    padding: 20px 55px;
+
+
+  }
+
+  .icon{
+     margin-left: -8%;
+
+
+  }
+  .sustainability{
+    margin-left: 4%;
+
+  }
+  .text {
+
+    text-align: center;
+  }
+
+ }

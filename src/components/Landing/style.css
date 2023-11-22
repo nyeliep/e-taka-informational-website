@@ -1,0 +1,68 @@
+
+.landing-centred-section {
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  .landing-section-container {
+
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .home-section {
+
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #333;
+  }
+
+  span{
+    color:  #FF9800;
+}
+
+  p {
+    font-size: 24px;
+    color: #666;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  img.home {
+    margin-top: 4%;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  @media (max-width: 768px) {
+    .home-section {
+      padding: 10px;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    .home-section {
+      padding: 5px;
+    }
+
+    h1 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }

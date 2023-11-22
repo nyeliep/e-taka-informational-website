@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.footer {
+    background-color: #093121;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: -11%;
+  
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .footer-section {
+    flex: 1;
+    max-width: 250px;
+    margin: 0 10px;
+  }
+
+  .footer-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .social-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+
+  .social-icons a{
+    color:  #FF8901;
+  }
+
+  .social-icons li {
+    font-size: 1.5rem;
+
+  }
+
+  .small {
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+
+
+  @media (max-width: 768px) {
+    .footer {
+      background-color: #093121;
+      color: #fff;
+      padding: 20px 0;
+      margin-top: -40%;
+
+    }
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 912px) {
+    .footer-section {
+      flex-basis: 10%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (width: 280px) {
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (width: 412px) {
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (width: 360px) {
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (width: 393px) {
+    .footer {
+      background-color: #093121;
+      color: #fff;
+      padding: 20px 0;
+      margin-top: -30%;
+
+    }
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (width: 390px) {
+    .footer {
+      background-color: #093121;
+      color: #fff;
+      padding: 20px 0;
+      margin-top: -30%;
+
+    }
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (width: 412px) {
+    .footer {
+      background-color: #093121;
+      color: #fff;
+      padding: 20px 0;
+      margin-top: -30%;
+
+    }
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (width: 414px) {
+    .footer {
+      background-color: #093121;
+      color: #fff;
+      padding: 20px 0;
+      margin-top: -30%;
+
+    }
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (width: 820px) {
+    .footer {
+      margin-top: -50%;
+
+    }
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+
+
+
+
+  @media (width: 375px) {
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+      font-size: 14px;
+    }
+    .small{
+      font-size: 10px;
+    }
+  }
+
+  @media (width: 540px) {
+    .footer-section {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
+
+  @media (width: 1024px) {
+    .footer {
+      background-color: #093121;
+      color: #fff;
+      padding: 20px 0;
+      margin-top: 10%;
+
+    }
+    .footer-section {
+      flex-basis: 10%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+    .footer{
+      margin-top: 6%;
+    }
+  }
+
+  @media (width: 1280px) {
+    .footer-section {
+      flex-basis: 10%;
+      max-width: 100%;
+    }
+
+    .footer-section h4 {
+      text-align: center;
+    }
+  }
